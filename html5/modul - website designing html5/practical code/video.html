@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .main {
+            height: auto;
+            width: auto;
+        }
+
+        .nav {
+            height: 90px;
+            width: auto;
+            background-color: grey;
+        }
+
+        .nav>h2 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo {
+            display: flex;
+            margin-left: 40px;
+            gap: 30px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            font-size: 20px;
+            color: black;
+        }
+
+        .sub-1 {
+            width: auto;
+        }
+
+        .video-header {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: white;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            
+        }
+        video{
+            margin-left: 300px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .main-1{
+            height: auto;
+            width: auto;
+            background-color: darkblue;
+        }
+        audio{
+            color: aliceblue;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <h2>HTML5 VIDEO</h2>
+            <div class="logo">
+                <i class="fa-solid fa-book-open"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="apple">apple</a></li>
+                    <li><a href="yahoo!">yahoo!</a></li>
+                    <li><a href="Google Maps">Google Maps</a></li>
+                    <li><a href="you tube">you tube</a></li>
+                    <li><a href="wikipedia">wikipedia</a></li>
+                    <li><a href="News(492)">News(492)</a></li>
+                    <li><a href="popular">popular</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-1">
+            <div class="video-header">HTML5 VIDEO</div>
+            <video src="C:\Users\i5\Downloads\190915_A_04_Drone_21.mp4"controls autoplay loop height="400"
+            width="600"></video>
+        </div>
+    </div>
+    <div class="main-1">
+        <audio src="C:\Users\i5\Downloads\Jamal Jamalo Ringtone Download – Animal Movie - MobCup.Com.Co.mp3"controls autoplay loop height="400"
+        width="600">></audio>
+    </div>
+</body>
+
+</html>
